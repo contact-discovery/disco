@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="pir1">PIR1</string>
+    <string name="pir">PIR</string>
+    <string name="mapping">Mapping %</string>
+    <string name="client_set_size_2_x">Client Set Size (2^x)</string>
+    <string name="_0_99">0.9999</string>
+    <string name="_4">4</string>
+    <string name="workers">Workers</string>
+    <string name="prf">PRF</string>
+    <string name="db_size_2_x">DB Size (2^x)</string>
+    <string name="pir2">PIR2</string>
+    <string name="partition_size_2_x">Partition Size (2^x)</string>
+    <string name="private_mobile_contact_discovery">Private Mobile Contact Discovery</string>
+    <string name="ip_port"><![CDATA[<IP>:<port>]]></string>
+    <string name="oprf">OPRF</string>
+    <string name="speedtest">SpeedTest</string>
+    <string name="psi">PSI</string>
+    <string name="updates">Updates</string>
+    <string name="_1">1</string>
+    <string name="online_runs">Online Runs</string>
+    <string name="psi_multi_online">PSI Multi Online</string>
+    <string name="psi_krs_19">PSI [KRS+19]</string>
+    <string name="_8">1</string>
+    <string name="partition_test">Partition Test</string>
+    <string name="speed_test">Speed Test</string>
+    <string-array name="prf_types">
+        <item>EC-NR</item>
+        <item>GC-AES</item>
+        <item>GC-LowMC</item>
+    </string-array>
+    <string-array name="db_exp">
+        <item>14</item>
+        <item>20</item>
+        <item>24</item>
+        <item>25</item>
+        <item>28</item>
+        <item>30</item>
+        <item>31</item>
+    </string-array>
+    <string-array name="seg_exp">
+        <item>10</item>
+        <item>13</item>
+        <item>14</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+    </string-array>
+    <string-array name="client_exp">
+        <item>0</item>
+        <item>10</item>
+        <item>14</item>
+    </string-array>
+</resources>

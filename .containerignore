@@ -1,0 +1,5 @@
+flatbuffers/
+.vscode/
+container/
+*.sh
+mobile_psi_cpp/build/

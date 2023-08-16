@@ -1,0 +1,7 @@
+go 1.19
+
+use (
+	./contact-discovery
+	./cuckoo-filter
+	./mobile-contact-discovery
+)

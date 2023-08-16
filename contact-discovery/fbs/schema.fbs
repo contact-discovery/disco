@@ -1,0 +1,55 @@
+namespace fbs;
+
+table HintReq {
+    num_hints_multiplier:int16; 
+   // rand_seed:[byte];
+}
+
+table HintResp {
+    set_gen_key:[byte];
+    hints:[byte];      
+    n_rows:int;     
+    row_len:int;    
+    set_size:int;
+    rand_init:int;   
+}
+
+table AllHintResp{
+    n_rows:uint32;     
+    row_len:int32;
+    set_size:int32;
+    hint_resps:[HintResp];
+}
+
+table Query {
+    extra_element:int32;
+	keys:[byte];
+	hole:int32;
+	shift:uint32;
+    univ_size:int32;
+    set_size:int32; 
+    seg_num:uint32; 
+}
+
+table SegmentQueries {  
+    seg_num:uint32;
+    univ_size:uint32;
+    set_size:int32;
+    queries:[Query];
+
+}
+
+table Answer {
+    answer: [byte];
+    extra_element:[byte];
+}
+
+table SegmentAnswers {
+    answers:[Answer];
+}
+
+rpc_service PIR {
+    Online(Query):Answer;                 
+    OnlineSegment(SegmentQueries):SegmentAnswers;
+    OfflineAll(HintReq):AllHintResp;
+}

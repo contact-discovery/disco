@@ -1,0 +1,6 @@
+[submodule "mobile_psi_cpp/droidCrypto/relic"]
+	path = mobile_psi_cpp/droidCrypto/relic
+	url = https://github.com/relic-toolkit/relic
+[submodule "mobile_psi_cpp/droidCrypto/GSL"]
+	path = mobile_psi_cpp/droidCrypto/GSL
+	url = https://github.com/Microsoft/GSL
